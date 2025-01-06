@@ -4,7 +4,7 @@
 
 - [x] eslint prettier 설정
 - [x] shadcn tailwind 설정
-- [ ] page 라우터 설정
+- [x] page 라우터 설정
 - [ ] api 호출 관련 설정
 - [ ] 메인페이지 2단 레이아웃 구성
 

@@ -1,16 +1,17 @@
-import { Button } from "@/components/ui/button.tsx";
 import Header from "@/components/ui/Header.tsx";
+import { BrowserRouter, Routes, Route } from "react-router";
+import ArticleListPage from "@/page/ArticleListPage.tsx";
 
 function App() {
-
-	const onClick = () => {
-		alert("Hello World");
-	};
 
 	return (
 		<>
 			<Header />
-			<Button onClick={onClick}>Click me</Button>
+			<BrowserRouter>
+				<Routes>
+					<Route path={"/"} element={<ArticleListPage />} />
+				</Routes>
+			</BrowserRouter>
 		</>
 	);
 }
