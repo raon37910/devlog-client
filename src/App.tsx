@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button.tsx";
+import Header from "@/components/ui/Header.tsx";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
 
 	return (
 		<>
+			<Header />
 			<Button onClick={onClick}>Click me</Button>
 		</>
 	);
